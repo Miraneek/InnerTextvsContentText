@@ -1,0 +1,105 @@
+body * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+label {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+}
+
+.add {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 12px 24px;
+    border: 0;
+    color: #fff;
+    background: #000a47;
+    line-height: 1.15;
+    font-size: 16px;
+    height: 100%;
+}
+
+.add:hover {
+    transition: all .1s ease;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #1de9b6;
+}
+
+input[type="text"] {
+    outline: none;
+    padding: 16px 12px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 3px;
+    height: 100%;
+    border: solid 1px #000a47;
+    position: relative;
+    bottom: 1px;
+    flex: 1;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.main {
+    width: 500px;
+    min-height: 500px;
+    background: white;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.wrapper{
+    padding: 8px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 74%, rgba(252,176,69,1) 100%);
+}
+
+.output {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.output button {
+    border: solid 2px red;
+    padding: 5px 10px;
+    border-radius: 20px;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    color: red;
+    font-size: 20px;
+    transition: all .1s ease;
+}
+
+.output button:hover {
+    transition: all .1s ease;
+    background: red;
+    color: white;
+}
+
+.output h4 {
+    font-size: 20px;
+}
+
+hr{
+    margin: 10px 0;
+    border: none;
+    height: 1px;
+    background: #000a47;
+}
