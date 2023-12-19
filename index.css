@@ -5,6 +5,10 @@ body * {
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    background: #000418;
+}
+
 label {
     height: 40px;
     display: flex;
@@ -54,7 +58,7 @@ body {
 .main {
     width: 500px;
     min-height: 500px;
-    background: white;
+    background: #ffffff;
     border-radius: 30px;
     padding: 20px;
 }
@@ -71,8 +75,8 @@ body {
     align-items: center;
     margin-bottom: 10px;
     padding: 10px;
-    border-radius: 10px;
     background: #fff;
+    border-bottom: solid 1px #000a47;
 }
 
 .output button {
@@ -95,6 +99,8 @@ body {
 
 .output h4 {
     font-size: 20px;
+    word-wrap: break-word;
+    width: 70%;
 }
 
 hr{

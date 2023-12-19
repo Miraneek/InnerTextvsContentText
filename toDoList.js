@@ -25,11 +25,8 @@ function add() {
 
     document.querySelector("#tasks").appendChild(output);
     document.querySelector("#input").value = "";
-    document.querySelector("#tasks").appendChild(document.createElement("hr"));
 
     btn.addEventListener("click", function(){
         document.querySelector("#tasks").removeChild(output);
-        document.querySelector("hr").remove();
     })
-
 }
